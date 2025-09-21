@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+
+  <body class="">
+    <div class="relative -z-10 h-full w-full bg-blue-100 py-12">
+      <img
+        src="/images/pattern-background-desktop.svg"
+        class="absolute -top-21 right-0 -z-10 w-full max-md:hidden"
+        alt=""
+      />
+      <img
+        src="/images/pattern-background-mobile.svg"
+        class="absolute -top-7 right-0 -z-10 w-full min-md:hidden"
+        alt=""
+      />
+
+      <!-- Background  -->
+      <!-- <img
+      src="/images/pattern-background-desktop.svg"
+      class="absolute -z-10 flex h-full w-full"
+      alt=""
+    /> -->
+      <main class="flex min-h-screen items-center justify-center">
+        <section
+          class="text-pr mx-auto flex h-fit w-9/10 flex-col rounded-2xl bg-white text-black shadow-2xl max-md:w-9/10 lg:w-[337.5px]"
+        >
+          <img
+            src="/images/illustration-hero.svg"
+            alt=""
+            class="rounded-t-2xl"
+          />
+
+          <div class="flex flex-col">
+            <h1 class="text-Body mt-10 text-center font-semibold text-black">
+              Order Summary
+            </h1>
+            <p
+              class="text-paragraph text-Gray-600 mx-auto mt-5 w-9/10 text-center max-md:w-95/100"
+            >
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+          </div>
+          <div
+            class="mx-auto mt-5 flex w-9/10 items-center rounded-xl bg-blue-50 p-4 text-black"
+          >
+            <img src="/images/icon-music.svg" alt="Music Icon" />
+            <div class="ml-4 flex flex-col items-center">
+              <p class="font-semibold">Annual Plan</p>
+              <p class="text-gray-600">$59.99/year</p>
+            </div>
+            <span
+              class="decoration-Blue-700 text-Blue-700 ml-auto place-content-end underline decoration-2"
+            >
+              Change</span
+            >
+          </div>
+          <div class="mt-5 mb-10 flex flex-col gap-4">
+            <button
+              class="bg-Blue-700 mx-auto w-9/10 rounded-xl p-2 text-white shadow-lg"
+            >
+              Proceed to Payment
+            </button>
+            <button class="text-Gray-600 text-aside font-semibold">
+              Cancel Order
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

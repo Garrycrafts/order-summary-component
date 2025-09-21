@@ -1,0 +1,27 @@
+/* Tailwind v4 */
+@import "tailwindcss";
+
+@theme {
+  /* ## Colors */
+
+  /* ### Primary */
+
+  --color-Blue-100: hsl(225, 100%, 94%);
+  --color-Blue-700: hsl(245, 75%, 52%);
+
+  /* ### Neutral */
+
+  --color-Blue-50: hsl(225, 100%, 98%);
+  --color-Gray-600: hsl(224, 23%, 55%);
+  --color-Blue-950: hsl(223, 47%, 23%);
+
+  /* ## Typography */
+
+  /* ### Body Copy */
+  --text-Body: 24px;
+  /* (paragraph) */
+  --text-paragraph: 16px;
+
+  /* Side text */
+  --text-aside: 14px;
+}
