@@ -16,15 +16,15 @@
   </head>
 
   <body class="">
-    <div class="relative -z-10 h-full w-full bg-blue-100 py-12">
+    <div class="relative h-full w-full bg-blue-100 py-12">
       <img
         src="/images/pattern-background-desktop.svg"
-        class="absolute -top-21 right-0 -z-10 w-full max-md:hidden"
+        class="absolute -top-21 right-0 w-full max-md:hidden"
         alt=""
       />
       <img
         src="/images/pattern-background-mobile.svg"
-        class="absolute -top-7 right-0 -z-10 w-full min-md:hidden"
+        class="absolute -top-7 right-0 w-full min-md:hidden"
         alt=""
       />
 
@@ -36,7 +36,7 @@
     /> -->
       <main class="flex min-h-screen items-center justify-center">
         <section
-          class="text-pr mx-auto flex h-fit w-9/10 flex-col rounded-2xl bg-white text-black shadow-2xl max-md:w-9/10 lg:w-[337.5px]"
+          class="text-pr z-10 mx-auto flex h-fit w-9/10 flex-col rounded-2xl bg-white text-black shadow-2xl max-md:w-9/10 lg:w-[337.5px]"
         >
           <img
             src="/images/illustration-hero.svg"
@@ -64,18 +64,20 @@
               <p class="text-gray-600">$59.99/year</p>
             </div>
             <span
-              class="decoration-Blue-700 text-Blue-700 ml-auto place-content-end underline decoration-2"
+              class="decoration-Blue-700 text-Blue-700 ml-auto cursor-pointer place-content-end underline decoration-2 hover:scale-80"
             >
               Change</span
             >
           </div>
-          <div class="mt-5 mb-10 flex flex-col gap-4">
+          <div class="group mt-5 mb-10 flex transform flex-col gap-4">
             <button
-              class="bg-Blue-700 mx-auto w-9/10 rounded-xl p-2 text-white shadow-lg"
+              class="bg-Blue-700 mx-auto w-9/10 cursor-pointer rounded-xl p-4 text-white shadow-lg transition-transform duration-500 hover:scale-80"
             >
               Proceed to Payment
             </button>
-            <button class="text-Gray-600 text-aside font-semibold">
+            <button
+              class="text-Gray-600 text-aside cursor-pointer pt-1 font-semibold hover:scale-95"
+            >
               Cancel Order
             </button>
           </div>
